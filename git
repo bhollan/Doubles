@@ -1,0 +1,5 @@
+MOOT: This will have to be installed by hand.
+sudo apt-get install git-core
+
+After that, you can clone stuff and run stuff from those repos.
+
