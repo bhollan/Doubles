@@ -1,0 +1,7 @@
+adduser bhollan;
+
+gpasswd -a bhollan sudo;
+
+su - bhollan;
+mkdir .ssh;
+chmod 700 .ssh;
