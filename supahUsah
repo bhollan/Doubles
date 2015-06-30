@@ -1,7 +1,10 @@
+#ADD USER AND SUDO POWERS
 adduser bhollan;
-
 gpasswd -a bhollan sudo;
-
 su - bhollan;
 mkdir .ssh;
 chmod 700 .ssh;
+
+#ADD PYTHON AND ENVIRONMENT
+apt-get install python-pip;
+pip install virtualenv;
